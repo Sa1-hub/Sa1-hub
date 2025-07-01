@@ -1,0 +1,320 @@
+html, body {
+    background-color: #fff;
+    color: #333;
+    font-family: FrutigerNext, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+div.body {
+    padding: 16px;
+    width: 630px;
+}
+
+h2 {
+    color: #555555;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0
+}
+
+h3 {
+    color: #555555;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0
+}
+
+ul.thumbnails,
+ul.thumbnails li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+ul.thumbnails {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.thumbnail-wrap {
+    position: relative;
+}
+
+.thumbnail-wrap a {
+    display: block;
+    position: relative;
+}
+
+.thumbnail-wrap .thumbnail {
+    display: block;
+    position: relative;
+}
+
+.thumbnail-wrap .video-icon {
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+}
+
+ul.thumbnails.one-column .thumbnail {
+    height: 130px;
+    width: 630px;
+}
+
+ul.thumbnails.two-column .thumbnail {
+    height: 130px;
+    width: 310px;
+}
+
+ul.thumbnails.three-column .thumbnail {
+    width: 70px;
+    height: 70px;
+}
+
+ul.thumbnails.four-column .thumbnail {
+    width: 150px;
+    height: 100px;
+}
+
+.columns-layout {
+    overflow: hidden;
+}
+
+.columns-layout .column {
+    float: left;
+    margin-left: 10px;
+}
+
+.columns-layout .column:first-child {
+    margin-left: 0
+}
+
+.columns-layout.two-column .column {
+    width: 310px;
+}
+
+.columns-layout.two-column h3 {
+    margin: 6px 0 0;
+}
+
+.columns-layout.two-column p {
+    margin-bottom: 0;
+}
+
+.columns-layout.three-column {
+    margin-bottom: 16px;
+}
+
+.columns-layout.three-column .column {
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 200px;
+    padding-right: 10px;
+    height: 70px;
+}
+
+.columns-layout.three-column .column .thumbnail-wrap {
+    float: left;
+}
+
+.columns-layout.three-column .column h3 {
+    margin-left: 80px;
+}
+
+.columns-layout.four-column .column {
+    width: 150px;
+}
+
+.columns-layout.four-column h3 {
+    margin: 6px 0 0;
+}
+
+ul.links,
+ul.links li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+ul.links {
+    margin-top: 20px;
+}
+
+.athena-home a {
+    color: #327084;
+    text-decoration: none;
+}
+
+.athena-home a:hover,
+.athena-home a:focus {
+    text-decoration: underline;
+}
+
+/** Athena extensions **/
+.body.athena-home {
+    width: 800px;
+}
+
+.athena-home p {
+    margin-bottom: 1em;
+}
+
+.athena-home h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 .25em;
+}
+
+.athena-home h2 {
+    font-size: 22px;
+}
+
+.athena-home h2,
+.athena-home h3 {
+    color: #333;
+}
+
+.athena-home ul.thumbnails {
+    margin-top: 5px;
+}
+
+.athena-home ul.thumbnails > li {
+    box-shadow: 1px 0 0 #e4e4e4, -1px 0 0 #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.athena-home ul.thumbnails > li > h3 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0;
+    padding: 8px;
+}
+
+.athena-home ul.thumbnails .thumbnail {
+    width: auto;
+    height: auto;
+}
+
+.athena-home ul.thumbnails.one-column .thumbnail {
+    width: 800px;
+    height: 250px;
+}
+
+.athena-home ul.thumbnails.two-column .thumbnail {
+    width: 390px;
+    height: 170px;
+}
+
+.athena-home ul.thumbnails.three-column .thumbnail {
+     width: 256px;
+    height: 150px;
+}
+
+.athena-home ul.thumbnails.four-column .thumbnail {
+    width: 190px;
+    height: 140px;
+}
+
+.athena-home ul.thumbnails.three-column h3,
+.athena-home ul.thumbnails.four-column h3 {
+    height: 34px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.athena-home ul.thumbnails + div.columns-layout {
+    margin-top: 25px;
+}
+
+.athena-home ul.links {
+    margin: 0;
+}
+
+.athena-home div.columns-layout {
+    margin-bottom: 2em;
+}
+
+.athena-home .thumbnail-wrap .video-icon {
+    left: 8px;
+    bottom: 8px;
+}
+
+.athena-home .thumbnail-wrap span.video-icon-wrap .video-icon {
+    left: 0;
+    bottom: 0;
+}
+
+.athena-home .thumbnail-wrap span.video-icon-wrap {
+    position: absolute;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    bottom: 8px;
+}
+
+.athena-home .column:hover .thumbnail-wrap span.video-icon-wrap .video-icon {
+    bottom: auto;
+    top: 0;
+}
+
+.athena-home .columns-layout {
+    overflow: visible;
+}
+
+.athena-home .columns-layout::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.athena-home .columns-layout.two-column .column {
+    width: 390px;
+}
+
+.athena-home .columns-layout .column + .column {
+    margin-left: 20px;
+}
+
+.athena-home .columns-layout.three-column .column {
+    height: auto;
+    width: 256px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+.athena-home .columns-layout.three-column .column + .column {
+    margin-left: 16px;
+}
+
+.athena-home .columns-layout.three-column .column .thumbnail-wrap  {
+    float: none;
+}
+
+.athena-home .columns-layout.three-column .column h3 {
+    margin-left: 0;
+}
+
+.athena-home .columns-layout.four-column .column {
+    width: 190px;
+}
+
+.athena-home .columns-layout.four-column .column + .column {
+    margin-left: 13.33px;
+}
+
+.athena-home ul.thumbnails.four-column + ul.thumbnails {
+    margin-top: -12px;
+}
